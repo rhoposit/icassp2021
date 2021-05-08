@@ -3,7 +3,7 @@ This is a Pytorch implementation of Dual-Encoder VQVAE mentioned in [our paper](
 
 We introduce a dual learning space that learns a speaker codebook (global features) alongside the original phone codebook (local). The new framework generalizes well to unseen speakers and the learned representations achieve reasonable performance in downstream tasks such as phone recognition and speaker diarization. 
 
-![Framework of Dual-Encoder VQVAE](https://github.com/rhoposit/icassp2021-private/blob/main/framework.png)
+![Framework of Dual-Encoder VQVAE](https://github.com/rhoposit/icassp2021/blob/main/framework.png)
 
 We reconstructed the speech using both [original VQVAE](https://arxiv.org/abs/1711.00937) and [dual-encoder VQVAE](https://arxiv.org/abs/2010.10727). 
 
@@ -51,7 +51,7 @@ Or you can use python train.py -m [model type]. The -m option can be used to tel
 - 'sys5a': train system 5a but use angular softmax
 
 
-Please modify sampling rate and other parameters in [config.py](https://github.com/rhoposit/icassp2021-private/blob/main/config.py) before training.
+Please modify sampling rate and other parameters in [config.py](https://github.com/rhoposit/icassp2021/blob/main/config.py) before training.
 
 
 # Pre-trained models
